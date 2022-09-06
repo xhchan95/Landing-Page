@@ -4,9 +4,10 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
-.header {
+.header, .footer {
     background: #1f2937;
     color: #f9faf8;
     margin: 0;
@@ -49,6 +50,8 @@ ul {
     justify-content: space-between;
     align-items: center;
     margin: 10px 100px;
+    padding: 20px 0;
+    gap: 40px;
 }
 
 .left {
@@ -61,21 +64,104 @@ ul {
 .left button {
     background: #3882f6;
     color: #f9faf8;
-    font-weight: bold;
-    border-radius: 6px;
-    width: 25%;
+    border-radius: 4px;
+    width: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 4px 20px;
 }
 
 .right {
     display: flex;
-    flex-direction: column;
-    background: grey;
     flex: 1;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    min-height: auto;
+    min-width: 200px;
 }
 
+.content-one {
+    margin: 40px 100px;
+}
+
+.title {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    margin: 0 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.content-two {
+    background-color: #e5e7eb;
+    padding: 50px 100px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.content-three {
+    display: flex;
+    background-color:#3882f6 ;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 150px;
+    border-radius: 4px;
+    color: white;
+    padding: 20px 40px;
+    gap: 100px;
+}
+
+.content-three button {
+    color: white;
+    background:transparent ;
+    border-radius: 4px;
+    border: 1px solid white;
+    font-size: 12px;
+    padding: 4px 20px;
+}
+
+.main-text {
+    font-weight: bold;
+}
+
+.sub-text {
+    font-size: 10px;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 200px;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
